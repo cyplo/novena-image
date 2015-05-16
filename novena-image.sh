@@ -2,7 +2,7 @@
 
 rootpass="kosagi"
 version="1.0"
-mirror="http://127.0.0.1:3142/ftp.hk.debian.org/debian"
+mirror="http://127.0.0.1:3142/ftp.pl.debian.org/debian"
 packages=""
 debs=""
 disktype="mmc"
@@ -129,7 +129,7 @@ partition_disk() {
 	then
 		# "NovS"
 		disksig=4e6f7653
-		swapsize=+4G
+		swapsize=+16G
 	else
 		fail "Must specify a disk type of either mmc or sata"
 		exit 1
