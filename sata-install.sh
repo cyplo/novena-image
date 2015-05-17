@@ -21,7 +21,7 @@ exec sudo ./novena-image.sh \
 	    hicolor-icon-theme gnome-icon-theme tango-icon-theme keychain \
 	    avahi-daemon avahi-dnsconfd libnss-mdns btrfs-tools \
 	    parted debootstrap python build-essential xscreensaver vlc vim \
-	    emacs x11-xserver-utils usbutils unzip apt-file xz-utils \
+	    x11-xserver-utils usbutils unzip apt-file xz-utils \
 	    subversion make screen tmux read-edid powertop powermgmt-base \
 	    pavucontrol p7zip-full paprefs pciutils nmap ntfs-3g \
 	    network-manager-vpnc network-manager-pptp network-manager-openvpn \
@@ -29,7 +29,7 @@ exec sudo ./novena-image.sh \
 	    iceweasel gtkwave gnupg2 git git-email git-man fuse freecad \
 	    enigmail dc curl clang bridge-utils bluez bluez-tools \
 	    bluez-hcidump bison bc automake autoconf pidgin alsa-utils verilog \
-	    i2c-tools hwinfo android-tools-adb android-tools-fastboot \
-	    android-tools-fsutils bash-completion kicad ncurses-dev gdb lzop \
+	    i2c-tools hwinfo \
+	    bash-completion kicad ncurses-dev gdb lzop \
 	    gawk bison g++ gcc flex pkg-config valgrind netcat wireshark \
 	    kismet aircrack-ng socat network-manager network-manager-gnome"
