@@ -12,7 +12,7 @@ exec sudo ./novena-image.sh \
 	-t sata \
 	-s jessie \
 	-a pulseaudio-novena_1.1-r1_all.deb \
-	-a u-boot-novena_2014.10-novena-r2-rc17_armhf \
+	-a u-boot-novena_2014.10-novena-r2-rc17_armhf.deb \
 	-a irqbalance-imx_0.56-1ubuntu4-rmk1_armhf.deb \
 	-a libdrm-armada2_2.0.2-1_armhf.deb \
 	-a libetnaviv_0.0.0-r11_armhf.deb \
