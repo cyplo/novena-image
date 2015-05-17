@@ -23,7 +23,6 @@ exec sudo ./novena-image.sh \
 	-a linux-libc-dev_3.19-novena-r10_armhf.deb \
 	-a novena-disable-ssp_1.1-1_armhf.deb \
 	-a novena-eeprom_2.3-1_armhf.deb \
-	-a novena-eeprom-gui_1.2-r1_armhf.deb \
 	-a kosagi-repo_1.0-r1_all.deb \
 	-a novena-firstrun_1.6-r1_all.deb \
 	-a xorg-novena_1.5-r1_all.deb \
