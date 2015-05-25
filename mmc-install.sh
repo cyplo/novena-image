@@ -39,7 +39,7 @@ time sudo /bin/bash -x ./novena-image.sh \
 	    xfdesktop4-data xfonts-100dpi xfonts-75dpi xfonts-scalable \
 	    xfwm4 xfwm4-themes xinit xorg xorg-docs-core \
             u-boot-novena irqbalance-imx libdrm-armada2-dbg \
-            novena-usb-hub libetnaviv-dev libetnaviv-dbg \
+            novena-usb-hub libetnaviv \
             linux-headers-novena linux-image-novena novena-disable-ssp novena-eeprom \
             novena-eeprom-gui kosagi-repo novena-firstrun xorg-novena xserver-xorg-video-armada \
             xserver-xorg-video-armada-dbg xserver-xorg-video-armada-etnaviv" \
