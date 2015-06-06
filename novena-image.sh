@@ -722,7 +722,7 @@ fi
 checksha1sum "${filename}"
 
 if [ "${disktype}" = "sata" ]; then
-	current_features=$(novena-eeprom | grep Features: | sed sed 's/[^(]*(*\([^)]*\)).*/\1/')
+	current_features=$(novena-eeprom | grep Features: | sed 's/[^(]*(*\([^)]*\)).*/\1/')
 	if ! echo "$current_features" | grep sataroot > /dev/null; then
 		echo "Everything was a success. Don't forget to run: "
 		echo
