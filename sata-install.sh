@@ -21,7 +21,6 @@ exec sudo ./novena-image.sh \
 	-a linux-image-novena_3.19-novena-r10_armhf.deb \
 	-a linux-firmware-image-novena_3.19-novena-r10_armhf.deb \
 	-a linux-libc-dev_3.19-novena-r10_armhf.deb \
-	-a novena-disable-ssp_1.1-1_armhf.deb \
 	-a novena-eeprom_2.3-1_armhf.deb \
 	-a kosagi-repo_1.0-r1_all.deb \
 	-a novena-firstrun_1.6-r1_all.deb \
@@ -44,4 +43,8 @@ exec sudo ./novena-image.sh \
 	    i2c-tools hwinfo \
 	    bash-completion kicad ncurses-dev gdb lzop \
 	    gawk bison g++ gcc flex pkg-config valgrind netcat wireshark \
-	    kismet aircrack-ng socat network-manager network-manager-gnome"
+	    kismet aircrack-ng socat network-manager network-manager-gnome \
+            pulseaudio-novena irqbalance-imx novena-disable-ssp \
+	    u-boot-novena linux-image-novena" \
+	${@:2}
+
